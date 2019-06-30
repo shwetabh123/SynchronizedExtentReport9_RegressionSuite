@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="0" ignored="6" total="14" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Extent Parallel Test" duration-ms="250" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+    <groups>
+      <group name="abc">
+        <method signature="ValidLogin1.TC1(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="TC1" class="test.java.com.pulse.Test.ValidLogin1"/>
+      </group> <!-- abc -->
+    </groups>
+    <test name="TestFirefox" duration-ms="250" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+      <class name="test.java.com.pulse.Test.ValidLogin4">
+        <test-method status="SKIP" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="TC7(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="TC7" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+at generic.BaseTest.beforeSuite(BaseTest.java:155)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="TC8(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin4@7f13d6e]" name="TC8" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+at generic.BaseTest.beforeSuite(BaseTest.java:155)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin4 -->
+      <class name="test.java.com.pulse.Test.ValidLogin3">
+        <test-method status="FAIL" signature="beforeSuite()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+at generic.BaseTest.beforeSuite(BaseTest.java:155)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="SKIP" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC5(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="TC5" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+at generic.BaseTest.beforeSuite(BaseTest.java:155)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC6(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="TC6" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/aventstack/extentreports/reporter/ExtentHtmlReporter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+at generic.BaseTest.beforeSuite(BaseTest.java:155)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="testDown()[pri:0, instance:test.java.com.pulse.Test.ValidLogin3@71bbf57e]" name="testDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:56Z" finished-at="2019-06-28T17:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin3 -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="172" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+      <class name="test.java.com.pulse.Test.ValidLogin2">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="TC3(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="TC3" duration-ms="0" started-at="2019-06-28T17:21:55Z" description="This test case verifies whether the reading check box is selected." finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC4(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="TC4" duration-ms="0" started-at="2019-06-28T17:21:55Z" description="This test case verifies whether the country is selected." finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin2@6ebc05a6]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin2 -->
+      <class name="test.java.com.pulse.Test.ValidLogin1">
+        <test-method status="SKIP" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC1(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="TC1" duration-ms="0" started-at="2019-06-28T17:21:55Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="TC2(java.lang.reflect.Method)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="TC2" duration-ms="0" started-at="2019-06-28T17:21:55Z" description="This test case verifies whether the radio button single is selected." finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:test.java.com.pulse.Test.ValidLogin1@1dfe2924]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-28T17:21:55Z" finished-at="2019-06-28T17:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.com.pulse.Test.ValidLogin1 -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Extent Parallel Test -->
+</testng-results>
