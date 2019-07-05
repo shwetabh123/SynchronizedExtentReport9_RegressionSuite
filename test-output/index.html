@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Extent_Parallel_Test">
-              <span class="suite-name border-skipped">Extent Parallel Test</span>
+              <span class="suite-name border-failed">Extent Parallel Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Extent_Parallel_Test">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,56 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="hide-methods skipped suite-Extent_Parallel_Test"> (hide)</a> <!-- hide-methods skipped suite-Extent_Parallel_Test -->
-                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="show-methods skipped suite-Extent_Parallel_Test"> (show)</a> <!-- show-methods skipped suite-Extent_Parallel_Test -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="hide-methods failed suite-Extent_Parallel_Test"> (hide)</a> <!-- hide-methods failed suite-Extent_Parallel_Test -->
+                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="show-methods failed suite-Extent_Parallel_Test"> (show)</a> <!-- show-methods failed suite-Extent_Parallel_Test -->
                     </span>
-                    <div class="method-list-content skipped suite-Extent_Parallel_Test">
+                    <div class="method-list-content failed suite-Extent_Parallel_Test">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin1" hash-for-method="TC1">TC1</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin1" hash-for-method="TC2(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...)">TC2(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Extent_Parallel_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="hide-methods passed suite-Extent_Parallel_Test"> (hide)</a> <!-- hide-methods passed suite-Extent_Parallel_Test -->
+                      <a href="#" panel-name="suite-Extent_Parallel_Test" class="show-methods passed suite-Extent_Parallel_Test"> (show)</a> <!-- show-methods passed suite-Extent_Parallel_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Extent_Parallel_Test">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin1" hash-for-method="TC1(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...)">TC1(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin1" hash-for-method="TC2">TC2</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin2" hash-for-method="TC3(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...)">TC3(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin2" hash-for-method="TC3">TC3</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin2" hash-for-method="TC4(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...)">TC4(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin2" hash-for-method="TC4">TC4</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin3" hash-for-method="TC5(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...)">TC5(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin3" hash-for-method="TC5">TC5</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin3" hash-for-method="TC6(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...)">TC6(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin3" hash-for-method="TC6">TC6</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin4" hash-for-method="TC7(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...)">TC7(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin4" hash-for-method="TC7">TC7</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin4" hash-for-method="TC8(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...)">TC8(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Extent_Parallel_Test" title="test.java.com.pulse.Test.ValidLogin4" hash-for-method="TC8">TC8</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Extent_Parallel_Test -->
+                    </div> <!-- method-list-content passed suite-Extent_Parallel_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -152,142 +161,126 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Extent_Parallel_Test" class="panel Extent_Parallel_Test">
-          <div class="suite-Extent_Parallel_Test-class-skipped">
+          <div class="suite-Extent_Parallel_Test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.java.com.pulse.Test.ValidLogin4</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC7">
-                  </a> <!-- TC7 -->
-                  <span class="method-name">TC7</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
-	at generic.BaseTest.beforeSuite(BaseTest.java:155)
-Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 21 more
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC8">
-                  </a> <!-- TC8 -->
-                  <span class="method-name">TC8</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
-	at generic.BaseTest.beforeSuite(BaseTest.java:155)
-Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 21 more
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Extent_Parallel_Test-class-skipped -->
-          <div class="suite-Extent_Parallel_Test-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">test.java.com.pulse.Test.ValidLogin1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC1">
-                  </a> <!-- TC1 -->
-                  <span class="method-name">TC1</span>
-                  <em>
-(This test case is to verify that the firstname and lastname is entered.)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC2">
-                  </a> <!-- TC2 -->
+                  <a name="TC2(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...)">
+                  </a> <!-- TC2(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...) -->
                   <span class="method-name">TC2</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Google] but found [www.google.com]
+	at test.java.com.pulse.Test.ValidLogin1.TC2(ValidLogin1.java:132)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (This test case verifies whether the radio button single is selected.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Extent_Parallel_Test-class-skipped -->
-          <div class="suite-Extent_Parallel_Test-class-skipped">
+          </div> <!-- suite-Extent_Parallel_Test-class-failed -->
+          <div class="suite-Extent_Parallel_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">test.java.com.pulse.Test.ValidLogin3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC5">
-                  </a> <!-- TC5 -->
-                  <span class="method-name">TC5</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
-	at generic.BaseTest.beforeSuite(BaseTest.java:155)
-Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 21 more
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC6">
-                  </a> <!-- TC6 -->
-                  <span class="method-name">TC6</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
-	at generic.BaseTest.beforeSuite(BaseTest.java:155)
-Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 21 more
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Extent_Parallel_Test-class-skipped -->
-          <div class="suite-Extent_Parallel_Test-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">test.java.com.pulse.Test.ValidLogin2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC3">
-                  </a> <!-- TC3 -->
+                  <a name="TC3(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC3(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...) -->
                   <span class="method-name">TC3</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exception)</span>
                   <em>
 (This test case verifies whether the reading check box is selected.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TC4">
-                  </a> <!-- TC4 -->
+                  <a name="TC4(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC4(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...) -->
                   <span class="method-name">TC4</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exception)</span>
                   <em>
 (This test case verifies whether the country is selected.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Extent_Parallel_Test-class-skipped -->
+          </div> <!-- suite-Extent_Parallel_Test-class-passed -->
+          <div class="suite-Extent_Parallel_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.com.pulse.Test.ValidLogin1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...)">
+                  </a> <!-- TC1(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...) -->
+                  <span class="method-name">TC1</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <em>
+(This test case is to verify that the firstname and lastname is entered.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Extent_Parallel_Test-class-passed -->
+          <div class="suite-Extent_Parallel_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.com.pulse.Test.ValidLogin4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC7(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...) -->
+                  <span class="method-name">TC7</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC8(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...) -->
+                  <span class="method-name">TC8</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Extent_Parallel_Test-class-passed -->
+          <div class="suite-Extent_Parallel_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.com.pulse.Test.ValidLogin3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC5(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...) -->
+                  <span class="method-name">TC5</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...)">
+                  </a> <!-- TC6(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...) -->
+                  <span class="method-name">TC6</span>
+                  <span class="parameters">(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Extent_Parallel_Test-class-passed -->
         </div> <!-- panel Extent_Parallel_Test -->
         <div panel-name="test-xml-Extent_Parallel_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -312,6 +305,9 @@ Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.report
       &lt;class name=&quot;test.java.com.pulse.Test.ValidLogin4&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestFirefox --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TestFirefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;/test&gt; &lt;!-- TestFirefox --&gt;
 &lt;/suite&gt; &lt;!-- Extent Parallel Test --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -327,6 +323,9 @@ Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.report
               </li>
               <li>
                 <span class="test-name">TestFirefox (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestFirefox (0 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -364,40 +363,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TC5')
 data.setCell(0, 2, 'test.java.com.pulse.Test.ValidLogin3')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 196508);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TC7')
 data.setCell(1, 2, 'test.java.com.pulse.Test.ValidLogin4')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 120787);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC6')
-data.setCell(2, 2, 'test.java.com.pulse.Test.ValidLogin3')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'TC4')
+data.setCell(2, 2, 'test.java.com.pulse.Test.ValidLogin2')
+data.setCell(2, 3, 77946);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TC8')
-data.setCell(3, 2, 'test.java.com.pulse.Test.ValidLogin4')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'TC3')
+data.setCell(3, 2, 'test.java.com.pulse.Test.ValidLogin2')
+data.setCell(3, 3, 72043);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TC2')
+data.setCell(4, 1, 'TC1')
 data.setCell(4, 2, 'test.java.com.pulse.Test.ValidLogin1')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 39983);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC4')
-data.setCell(5, 2, 'test.java.com.pulse.Test.ValidLogin2')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'TC2')
+data.setCell(5, 2, 'test.java.com.pulse.Test.ValidLogin1')
+data.setCell(5, 3, 32099);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC3')
-data.setCell(6, 2, 'test.java.com.pulse.Test.ValidLogin2')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'TC6')
+data.setCell(6, 2, 'test.java.com.pulse.Test.ValidLogin3')
+data.setCell(6, 3, 24650);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TC1')
-data.setCell(7, 2, 'test.java.com.pulse.Test.ValidLogin1')
-data.setCell(7, 3, 0);
+data.setCell(7, 1, 'TC8')
+data.setCell(7, 2, 'test.java.com.pulse.Test.ValidLogin4')
+data.setCell(7, 3, 21668);
 window.suiteTableData['Extent_Parallel_Test']= { tableData: data, tableDiv: 'times-div-Extent_Parallel_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Extent_Parallel_Test">
               </div> <!-- times-div-Extent_Parallel_Test -->
             </div> <!-- times-div -->
@@ -416,7 +415,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.java.com.pulse.Test.ValidLogin4</span>
+              <span class="ignored-class-name">test.java.com.pulse.Test.ValidLogin2</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">testDown</span>
                 <br/>
@@ -427,7 +426,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.java.com.pulse.Test.ValidLogin2</span>
+              <span class="ignored-class-name">test.java.com.pulse.Test.ValidLogin4</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">testDown</span>
                 <br/>
@@ -447,64 +446,190 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.xml.XmlTest@42aba53c)</span>
+                <span class="method-start">2800 ms</span>
+              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.xml.XmlTest@fe4026d7)</span>
+                <span class="method-start">2804 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@55ca8de8)</span>
+                <span class="method-start">2916 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@2c34f934)</span>
+                <span class="method-start">2916 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">2936 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...)</span>
+                <span class="method-start">2936 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC1</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC1(public void test.java.com.pulse.Test.ValidLogin1.TC1(java.lang.reflect.Method) throws java.lang.Inte...)</span>
+                <span class="method-start">110731 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">TC5</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC5(public void test.java.com.pulse.Test.ValidLogin3.TC5(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">110731 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin1</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC1 status=SUCCESS method=ValidLogin1.TC1(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">150718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...)</span>
+                <span class="method-start">157434 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC2</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC2(public void test.java.com.pulse.Test.ValidLogin1.TC2(java.lang.reflect.Method) throws java.lang.Inte...)</span>
+                <span class="method-start">230553 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC2 status=FAILURE method=ValidLogin1.TC2(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">262844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">263620 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@2c34f934)</span>
+                <span class="method-start">294542 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">294546 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC3</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC3(public void test.java.com.pulse.Test.ValidLogin2.TC3(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">302042 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC5 status=SUCCESS method=ValidLogin3.TC5(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">307243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">307483 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC6</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC6(public void test.java.com.pulse.Test.ValidLogin3.TC6(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">316592 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">TC4</span>
-                <span class="method-start">-1561742515647 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC6 status=SUCCESS method=ValidLogin3.TC6(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">341246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">341925 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(org.testng.TestRunner@55ca8de8)</span>
+                <span class="method-start">342167 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">342171 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC7</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC7(public void test.java.com.pulse.Test.ValidLogin4.TC7(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">366310 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC3 status=SUCCESS method=ValidLogin2.TC3(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">374089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">374387 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TC8</span>
-                <span class="method-start">-1561742515647 ms</span>
+                <span class="method-name">TC4(public void test.java.com.pulse.Test.ValidLogin2.TC4(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">385905 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC4 status=SUCCESS method=ValidLogin2.TC4(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">463855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">465538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin4</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC7 status=SUCCESS method=ValidLogin4.TC7(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">487097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">487206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC8(public void test.java.com.pulse.Test.ValidLogin4.TC8(java.lang.reflect.Method) throws java.lang.Exce...)</span>
+                <span class="method-start">494164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC8 status=SUCCESS method=ValidLogin4.TC8(java.lang.reflect.Method)[pri:0, instance...)</span>
+                <span class="method-start">515832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">515895 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.com.pulse.Test.ValidLogin3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">testDown</span>
+                <span class="method-start">516145 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
